@@ -1,0 +1,25 @@
+{
+  "name": "selenium-with-local-server",
+  "version": "1.0.0",
+  "description": "Run a simple selenium script using a local selenium standalone server",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha selenium-local-server-burst-only-navigate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "my-git"
+  },
+  "dependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "selenium",
+    "test",
+    "script",
+    "standalone",
+    "server"
+  ],
+  "author": "yossi.neeman@gmail.com",
+  "license": "ISC"
+}
